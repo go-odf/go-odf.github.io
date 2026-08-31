@@ -1,0 +1,2 @@
+packages:
+  - { name: "odf", chip: "O", desc: "ODT (OpenDocument Text) ⇄ richdoc converter.", url: "https://github.com/go-odf/odf", doc: "https://pkg.go.dev/github.com/go-odf/odf" }

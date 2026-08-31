@@ -1,0 +1,4 @@
+baseURL = "https://go-odf.github.io/"
+locale = "en-us"
+title = "go-odf"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
