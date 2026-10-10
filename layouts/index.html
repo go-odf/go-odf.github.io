@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{{ .Site.Title }} — OpenDocument Text, in and out.</title>
-<meta name="description" content="OpenDocument Text, in and out. Pure Go, CGO_ENABLED=0.">
+<title>{{ .Site.Title }} — every OpenDocument body, in and out.</title>
+<meta name="description" content="OpenDocument text, spreadsheets, presentations and drawings, into one document model. Pure Go, CGO_ENABLED=0.">
 <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
 <link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
 <script src="{{ "js/theme.js" | relURL }}"></script>
@@ -11,7 +11,7 @@
   <button id="themebtn" class="theme" type="button">Theme: System</button>
   <img src="{{ "img/go-odf-white.png" | relURL }}" alt="go-odf">
   <h1>go-odf</h1>
-  <p>OpenDocument Text, in and out.</p>
+  <p>Every OpenDocument body, in and out.</p>
   <div class="btns">
     <a class="btn btn-solid" href="https://pkg.go.dev/github.com/go-odf/odf">{{ partial "icons/book.html" . }}Reference</a>
     <a class="btn btn-ghost" href="https://github.com/go-odf">{{ partial "icons/mark-github.html" . }}GitHub</a>
@@ -20,7 +20,7 @@
 <div class="wrap">
   <div class="panel">
     <h2>What is go-odf?</h2>
-    <p>go-odf converts ODT ⇄ richdoc in pure Go, CGO-free: an OpenDocument file becomes the shared document model, and the model becomes an ODT a word processor will open.</p>
+    <p>go-odf converts ODT ⇄ richdoc in pure Go, CGO-free: an OpenDocument file becomes the shared document model, and the model becomes an ODT a word processor will open. It <strong>reads</strong> the other bodies too — <code>.ods</code> spreadsheets, <code>.odp</code> presentations and <code>.odg</code> drawings — because they are the same ZIP of XML with a different body element, and walking only <code>office:text</code> parsed each of them into a document of nothing, <em>without an error</em>.</p>
   </div>
   <h2 class="section">Packages</h2>
   <p class="sub">{{ len hugo.Data.pkgs.packages }} module(s) in this organisation.</p>
