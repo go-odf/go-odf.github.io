@@ -1,2 +1,2 @@
 packages:
-  - { name: "odf", chip: "O", desc: "ODT ⇄ richdoc; reads ODS, ODP and ODG too.", url: "https://github.com/go-odf/odf", doc: "https://pkg.go.dev/github.com/go-odf/odf" }
+  - { name: "odf", chip: "O", desc: "ODT ⇄ richdoc; reads ODS, ODP and ODG too; writes a deck of rendered slides as ODP, with speaker notes.", url: "https://github.com/go-odf/odf", doc: "https://pkg.go.dev/github.com/go-odf/odf" }
