@@ -22,7 +22,7 @@
 <div class="wrap">
   <div class="panel">
     <h2>What is go-odf?</h2>
-    <p>go-odf converts ODT ⇄ richdoc in pure Go, CGO-free: an OpenDocument file becomes the shared document model, and the model becomes an ODT a word processor will open. It <strong>reads</strong> the other bodies too — <code>.ods</code> spreadsheets, <code>.odp</code> presentations and <code>.odg</code> drawings — because they are the same ZIP of XML with a different body element, and walking only <code>office:text</code> parsed each of them into a document of nothing, <em>without an error</em>.</p>
+    <p>go-odf converts ODT ⇄ richdoc in pure Go, CGO-free: an OpenDocument file becomes the shared document model, and the model becomes an ODT a word processor will open. It <strong>reads</strong> the other bodies too — <code>.ods</code> spreadsheets, <code>.odp</code> presentations and <code>.odg</code> drawings — because they are the same ZIP of XML with a different body element, and walking only <code>office:text</code> parsed each of them into a document of nothing, <em>without an error</em>. And it <strong>writes</strong> an <code>.odp</code>: a deck of rendered slides, one full-page picture each, with its speaker notes — what <code>marp-cli --pptx</code> does for PowerPoint.</p>
   </div>
   <h2 class="section">Packages</h2>
   <p class="sub">{{ len hugo.Data.pkgs.packages }} module(s) in this organisation.</p>
